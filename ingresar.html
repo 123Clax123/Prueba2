@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENA</title>
+    <!-- importamos fuentes de google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- importamos materialize.css -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+    <link rel="icon" href="imagenes/libro.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav class="green">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo">
+                <img src="imagenes/logoSena.png" style="width: 65px;">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="etapa.html">Etapa Productiva</a></li>
+                <li><a href="modalidades.html">Modalidades</a></li>
+                <li><a href="desarrollo.html">Desarrollo</a></li>
+                <li><a href="ingresar.html">Ingresar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class='container section'>
+        <div class="row card-panel">
+            <form class="col s12">
+                <div class="input-field col s6">
+                    <label for="nombre">Ingresa tu nombre</label>
+                    <input type="text" id="nombre" placeholder="Nombre" class="validate" required>
+                </div>
+                <div class="input-field col s6">
+                    <label for="apellido">Ingresa tu apellido</label>
+                    <input type="text" id="apellido" placeholder="Apellido" class="validate" required>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">call_received</i>
+                    <label for="email">Ingresa tu email</label>
+                    <input type="email" id="email" placeholder="E-mail" class="validate" required>
+                </div>
+                <button class="btn waves-effect right light-green" type="submit" name="enviar">Enviar
+                    <i class="material-icons right">brush</i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="page-footer green">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Servicio Nacional de Aprendizaje SENA</h5>
+                    <p class="grey-text text-lighten-4">Centro Sur Colombiano de Logística Internacional</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3"
+                                href="http://senasofiaplus.edu.co/sofia-public/">SENA</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://zajuna.sena.edu.co/">ZAJUNA</a></li>
+                        <li><a class="grey-text text-lighten-3"
+                                href="https://oferta.senasofiaplus.edu.co/sofia-oferta/">Sofia Plus</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- incluimos javascript al final del cuerpo para optimizar la carga -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
